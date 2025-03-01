@@ -31,8 +31,8 @@ jobs:
         with:
           version: "8"
 
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - name: Install dependencies (with no frozen lockfile)
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build with Next.js
         run: pnpm next build
