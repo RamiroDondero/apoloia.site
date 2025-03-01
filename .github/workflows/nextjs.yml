@@ -34,8 +34,18 @@ jobs:
       - name: Install dependencies (with no frozen lockfile)
         run: pnpm install --no-frozen-lockfile
 
-      - name: Build with Next.js
-        run: pnpm next build
+        run: |
+         ${{ steps.detect-package-manager.outputs.runner }} next build
+         ${{ steps.detect-package-manager.outputs.runner }} next export
+
+      - name: Verify output directory
+        run: |
+          if [ -d "./out" ]; then
+            echo "Directory out exists."
+          else
+            echo "Directory out does not exist."
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
