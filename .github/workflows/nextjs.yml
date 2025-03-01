@@ -36,8 +36,8 @@ jobs:
 
       - name: Build with Next.js
         run: |
-         ${{ steps.detect-package-manager.outputs.runner }} next build
-         ${{ steps.detect-package-manager.outputs.runner }} next export
+         pnpm next build
+         pnpm next export
 
       - name: Verify output directory
         run: |
