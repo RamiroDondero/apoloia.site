@@ -12,13 +12,12 @@ export const metadata: Metadata = {
   description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
     title: "apoloia.site",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+    description: "Imagine without limits, automate with IA.",
     url: "https://apoloia.site",
     siteName: "apoloia.site",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://localhost:3000/og.jpg",
         width: 1920,
         height: 1080,
       },

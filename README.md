@@ -1,33 +1,43 @@
-<div align="center">
-    <a href="https://chronark.com"><h1 align="center">chronark.com</h1></a>
+# Apoloia.site
 
-My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
+Bienvenido a **apoloia.site**.
 
-</div>
+Apoloia es una plataforma innovadora dedicada a **automatizar procesos utilizando inteligencia artificial**. Nuestro objetivo es simplificar tareas complejas, mejorar la eficiencia y ofrecer soluciones inteligentes a empresas y usuarios que buscan aprovechar el poder de la IA.
 
-<br/>
+## Características
 
+- **Automatización inteligente**: Usa modelos de inteligencia artificial para automatizar tareas repetitivas, ahorrando tiempo y esfuerzo.
+- **Optimización de procesos**: Apoloia mejora la eficiencia operativa a través de la automatización de flujos de trabajo en diferentes áreas.
+- **Integraciones personalizables**: Nuestra plataforma permite integrarse con múltiples servicios y sistemas para adaptar las soluciones a tus necesidades.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/upstash/clone?demo-title=Next.js%20Portfolio%20with%20Pageview%20Counter&demo-description=Portfolio%20site%20with%20pageview%20counter%2C%20built%20with%20Next.js%2013%20App%20Router%2C%20Contentlayer%2C%20and%20Upstash%20Redis.&demo-url=https%3A%2F%2Fchronark.com%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F1DA8n5a6WaP9p1FXf9LmUY%2Fc6264fa2732355787bf657df92dda8a1%2FCleanShot_2023-04-17_at_14.17.37.png&project-name=Next.js%20Portfolio%20with%20Pageview%20Counter&repository-name=nextjs-portfolio-pageview-counter&repository-url=https%3A%2F%2Fgithub.com%2Fchronark%2Fchronark.com&from=templates&integration-ids=oac_V3R1GIpkoJorr6fqyiwdhl17)
+## Tecnologías utilizadas
 
-## Running Locally
+- **GitHub Pages**: Alojamiento estático del sitio, proporcionando una solución sencilla y escalable.
+- **JavaScript**: Lenguaje de programación utilizado para interactividad y automatización dentro de la plataforma.
+- **Inteligencia Artificial (IA)**: Utilizamos modelos de IA para realizar tareas de automatización y optimización de procesos.
+- **APIs de Integración**: Apoloia puede conectarse a diversas APIs para ampliar sus capacidades de automatización.
 
+## Instalación
 
-```sh-session
-git clone https://github.com/chronark/chronark.com.git
-cd chronark.com
-```
+Apoloia.site es una plataforma completamente en línea, por lo que no necesitas instalar nada para comenzar a usarla. Simplemente visita [apoloia.site](https://www.apoloia.site) para acceder a todas las funcionalidades.
 
+## Contribuir
 
-Create a `.env` file similar to [`.env.example`](https://github.com/chronark/chronark.com/blob/main/.env.example).
+¡Contribuciones son bienvenidas! Si deseas ayudar a mejorar la plataforma, sigue estos pasos:
 
-Then install dependencies and run the development server:
-```sh-session
-pnpm install
-pnpm dev
-```
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza los cambios y haz commit (`git commit -am 'Añadir nueva característica'`).
+4. Empuja la rama (`git push origin feature/nueva-caracteristica`).
+5. Abre un **pull request**.
 
+## Licencia
 
-## Cloning / Forking
+Este proyecto está bajo la licencia **MIT** - consulta el archivo de licencia para más detalles.
 
-Please remove all of my personal information (projects, images, etc.) before deploying your own version of this site.
+## Contacto
+
+Si tienes preguntas o sugerencias, no dudes en contactarnos:
+
+- **Email**: contacto@apoloia.site
+- **GitHub**: [https://github.com/tuusuario](https://github.com/tuusuario)
