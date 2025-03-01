@@ -34,6 +34,7 @@ jobs:
       - name: Install dependencies (with no frozen lockfile)
         run: pnpm install --no-frozen-lockfile
 
+      - name: Build with Next.js
         run: |
          ${{ steps.detect-package-manager.outputs.runner }} next build
          ${{ steps.detect-package-manager.outputs.runner }} next export
