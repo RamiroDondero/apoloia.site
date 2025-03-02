@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: "apoloia.site",
     template: "%s | apoloia.site",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Imagine without limits, automate with IA.",
   openGraph: {
     title: "apoloia.site",
     description: "Imagine without limits, automate with IA.",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.ico",
+    shortcut: "favicon.ico",
   },
 };
 const inter = Inter({
